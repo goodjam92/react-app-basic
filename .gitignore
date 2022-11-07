@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,macos,node
 
 node_modules/
-
+node_modules
 ### macOS ###
 # General
 .DS_Store
@@ -190,3 +190,4 @@ sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/react,macos,node
 *.pack
+node_modules/.cache/.eslintcache
