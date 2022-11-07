@@ -1,0 +1,23 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.ulist {
+  display: block;
+  align-content: center;
+  text-align: left;
+}
+
+.summary {
+  height: 100%;
+  width: 40rem;
+  font-size: 1.1rem;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}

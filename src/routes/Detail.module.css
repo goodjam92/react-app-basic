@@ -1,0 +1,78 @@
+.html {
+  height: 100%;
+  background-color: rgb(65, 63, 63);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  box-sizing: border-box;
+  width: 100%;
+  height: 5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span {
+  display: block;
+  border-style: outset;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contents {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+
+.imgbox {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+
+.img {
+  padding: 1rem;
+}
+
+.descriptionbox {
+  height: 100%;
+  width: 40%;
+
+  padding-right: 1rem;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+  overflow: auto;
+}
+
+.descriptionbox div {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 0.2rem;
+  font-size: 1.1rem;
+}
+
+.descriptionbox span {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
