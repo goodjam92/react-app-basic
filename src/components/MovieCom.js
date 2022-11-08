@@ -17,7 +17,9 @@ function MovieComponent({ id, title, year, coverImg, genres, summary }) {
           <li key={g}>{g}</li>
         ))}
       </ul>
-      <p className={styled.summary}>{summary}</p>
+      <p className={styled.summary}>
+        {summary.length > 235 ? `${summary.slice(0, 235)} ...` : summary}
+      </p>
     </div>
   );
 }
